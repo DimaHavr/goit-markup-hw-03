@@ -57,6 +57,10 @@ a {
    padding-right: 15px;
 }
 
+.section{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -79,6 +83,7 @@ a {
 /* Шапка */
 
 .header {
+   max-width: 1600px;
    padding-top: 24px;
    padding-bottom: 24px;
     border-bottom: 1px solid var(--border-color);
@@ -193,8 +198,6 @@ a {
 .features {
 }
 .features-box {
-   padding-top: 94px;
-   padding-bottom: 94px;
 }
 .features-list {
    display: flex;
@@ -245,8 +248,7 @@ a {
    background-color: var(--background-second);
 }
 .team-box {
-   padding-top: 94px;
-   padding-bottom: 94px;
+
 }
 .team-list {
    display: flex;
@@ -281,6 +283,7 @@ a {
 
 /* Підвал */
 .footer {
+   max-width: 1600px;
    background-color: var(--background);
 }
 .footer-box {
@@ -312,8 +315,7 @@ a {
 /* Фільтр */
 
 .filter-box {
-   padding-top: 94px;
-   padding-bottom: 50px;
+   margin-bottom: 50px;
 }
 .filter-list {
    font-weight: 500;
@@ -365,7 +367,6 @@ a {
    justify-content: space-around;
    flex-wrap: wrap;
    gap: 30px;
-   padding-bottom: 94px;
 }
 .portfolio-item {
    border: 1px solid #eeeeee;
